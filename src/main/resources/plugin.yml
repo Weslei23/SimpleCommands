@@ -1,0 +1,8 @@
+name: SimpleCommands
+version: '1.0-SNAPSHOT'
+main: com.wsdev.simpleCommands.SimpleCommands
+api-version: '1.21'
+
+commands:
+  site:
+    description: "Envia o site do servidor no chat."
