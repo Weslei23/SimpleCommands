@@ -6,3 +6,6 @@ api-version: '1.21'
 commands:
   site:
     description: "Envia o site do servidor no chat."
+  fly:
+    description: "Permite ativar o fly."
+    usage: /fly

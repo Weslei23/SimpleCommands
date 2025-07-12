@@ -5,8 +5,7 @@ api-version: 1.21
 
 Site:
   Exigir-Permissao: false
-  Mensagem: "&aSite do nosso servidor: &ewww.brunnofdc.dev.br"
-Tp:
-  description: Teleporta para outro jogador.
-  usage: /tp <jogador>
+  Mensagem: "&aSite do nosso servidor: &ewww.wsdev.com.br"
+
+Fly:
   Exigir-Permissao: false

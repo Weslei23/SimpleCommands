@@ -5,4 +5,7 @@ api-version: 1.21
 
 Site:
   Exigir-Permissao: false
-  Mensagem: "&aSite do nosso servidor: &ewww.brunnofdc.dev.br"
+  Mensagem: "&aSite do nosso servidor: &ewww.wsdev.com.br"
+
+Fly:
+  Exigir-Permissao: false

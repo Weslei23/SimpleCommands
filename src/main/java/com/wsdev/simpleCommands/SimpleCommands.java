@@ -1,5 +1,6 @@
 package com.wsdev.simpleCommands;
 
+import com.wsdev.simpleCommands.Commands.FlyCommand;
 import com.wsdev.simpleCommands.Commands.SiteCommand;
 import org.bukkit.configuration.file.FileConfiguration;
 import org.bukkit.plugin.java.JavaPlugin;
@@ -18,6 +19,7 @@ public final class SimpleCommands extends JavaPlugin
         config = getConfig();
 
         getCommand( "site" ).setExecutor( new SiteCommand() );
+        getCommand( "fly" ).setExecutor( new FlyCommand() );
 
     }
 
