@@ -17,15 +17,23 @@ public class FlyCommand  implements CommandExecutor
         {
             if( exigirPermissao && !player.hasPermission( "simpleCommands.fly" ) )
             {
-                player.sendMessage( "§cVoce não possui acesso a este comando." );
+                player.sendMessage( "§e§l[Info]: §7Voce não permissão para executar este comando." );
                 return true;
+            }
+
+            if ( player.getAllowFlight() == false )
+            {
+                player.setAllowFlight( true );
+                player.setFlying( true );
+
+                player.sendMessage( "§e§l[Info]: §7Fly ativado" );
+
             }
             else
             {
-                boolean fly = player.getAllowFlight();
-
-                player.setAllowFlight( fly );
-                player.sendMessage(  !fly ? "§aFly ativado " : "§cFly desativado " );
+                player.setAllowFlight( false );
+                player.setFlying( false );
+                player.sendMessage( "§e§l[Info]: §7Fly desativado" );
             }
         }
         return true;

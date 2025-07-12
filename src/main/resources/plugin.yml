@@ -9,3 +9,6 @@ commands:
   fly:
     description: "Permite ativar o fly."
     usage: /fly
+  gm:
+    description: "Altere o moto de jogo para survival ou criativo."
+    usage: /gm ( 0 - 1 )

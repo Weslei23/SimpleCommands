@@ -20,7 +20,7 @@ public class SiteCommand implements CommandExecutor
         {
             if ( exigirPermissao && !player.hasPermission( "simplecommands.site" ) )
             {
-                player.sendMessage( "§cVoce não tem permissão para isso!" );
+                player.sendMessage( "§e§l[Info]: §7Voce não tem permissão para executar esse comando." );
                 return true;
             }
         }

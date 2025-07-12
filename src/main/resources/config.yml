@@ -5,7 +5,7 @@ api-version: 1.21
 
 Site:
   Exigir-Permissao: false
-  Mensagem: "&aSite do nosso servidor: &ewww.wsdev.com.br"
+  Mensagem: "&e&l[Info]: &7Site do nosso servidor: &awww.wsdev.com.br"
 
 Fly:
   Exigir-Permissao: false
